@@ -9,7 +9,7 @@ public class PostgresDB implements IDB {
     public Connection getConnection() throws SQLException, ClassNotFoundException {
         String connectionUrl = "jdbc:postgresql://localhost:5432/SimpleDb";
         try {
-            // Here we load the driver’s class file into memory at the runtime
+            // Here we load the driver’s class file into memory at the runtime asdfasdfasdf
             Class.forName("org.postgresql.Driver");
 
             // Establish the connection
